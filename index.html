@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Unlock Growth with AI Marketing Powerhouse - Supercharge your marketing with AI-powered content creation, predictive analytics, and personalized customer journeys.">
+    <meta name="keywords" content="AI Marketing, Predictive Analytics, Content Creation, Email Marketing, Sentiment Analysis">
+    <meta name="author" content="AI Marketing Powerhouse">
+    <meta property="og:title" content="Unlock Growth: AI Marketing Powerhouse">
+    <meta property="og:description" content="Supercharge your marketing with AI. Predict outcomes, personalize experiences, and maximize ROI like never before.">
+    <meta property="og:type" content="website">
+    <title>Unlock Growth: AI Marketing Powerhouse</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-bold {
+            background: linear-gradient(135deg, #1f2937 0%, #111827 100%);
+        }
+        
+        .gradient-accent {
+            background: linear-gradient(135deg, #3b82f6 0%, #1e40af 100%);
+        }
+        
+        .feature-card {
+            transition: all 0.3s ease;
+        }
+        
+        .feature-card:hover {
+            transform: translateY(-8px);
+        }
+        
+        .btn-primary {
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+        }
+        
+        .faq-item {
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question {
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+        
+        .faq-question:hover {
+            color: #3b82f6;
+        }
+        
+        .faq-icon {
+            transition: transform 0.3s ease;
+        }
+        
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease, opacity 0.3s ease;
+            opacity: 0;
+        }
+        
+        .faq-answer:not(.hidden) {
+            max-height: 500px;
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <!-- Header Navigation -->
+    <header class="sticky top-0 z-50 bg-white shadow-md">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                    <i class="fas fa-rocket text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold text-gray-900">AI Marketing</span>
+            </div>
+            
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Features</a>
+                <a href="#benefits" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Benefits</a>
+                <a href="#testimonials" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Testimonials</a>
+                <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">About</a>
+                <a href="https://example.com" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg">Get Started</a>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-button md:hidden text-gray-900 hover:text-blue-600 transition-colors duration-300">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+            
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden absolute top-full left-0 right-0 bg-white shadow-lg md:hidden">
+                <div class="flex flex-col space-y-4 px-4 py-6">
+                    <a href="#features" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Features</a>
+                    <a href="#benefits" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Benefits</a>
+                    <a href="#testimonials" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">Testimonials</a>
+                    <a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition-colors duration-300">About</a>
+                    <a href="https://example.com" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-2 rounded-lg font-semibold transition-all duration-300 hover:shadow-lg text-center">Get Started</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="gradient-bold py-24 md:py-32 lg:py-40 text-white overflow-hidden relative">
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 right-0 w-96 h-96 bg-blue-500 rounded-full blur-3xl"></div>
+            <div class="absolute bottom-0 left-0 w-96 h-96 bg-blue-600 rounded-full blur-3xl"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-tight mb-6">
+                    Unlock Growth: <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-blue-200">AI Marketing Powerhouse</span>
+                </h1>
+                
+                <p class="text-lg md:text-xl lg:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
+                    Supercharge your marketing with AI. Predict outcomes, personalize experiences, and maximize ROI like never before.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://example.com" class="btn-primary bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300 hover:shadow-2xl">
+                        Start Your Free Trial
+                    </a>
+                    <a href="#features" class="btn-primary border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300">
+                        Learn More
+                    </a>
+                </div>
+                
+                <div class="mt-12 grid grid-cols-3 gap-6 max-w-2xl mx-auto">
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-400 mb-2">10x</div>
+                        <p class="text-sm text-gray-400">Faster Campaigns</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-400 mb-2">3x</div>
+                        <p class="text-sm text-gray-400">Better ROI</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="text-3xl font-bold text-blue-400 mb-2">99%</div>
+                        <p class="text-sm text-gray-400">Accuracy</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Powerful AI-Driven Features
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Harness the power of artificial intelligence to transform your marketing strategy and drive unprecedented growth.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Feature 1: AI-Powered Content Creation -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-wand-magic-sparkles text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">AI-Powered Content Creation</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Generate compelling, conversion-optimized content in seconds. Our advanced AI understands your brand voice and audience preferences, creating engaging copy that resonates and drives action.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Multi-format content generation</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Brand voice consistency</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> SEO optimization built-in</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 2: Predictive Analytics -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Predictive Analytics</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Anticipate market trends and customer behavior before they happen. Our machine learning models analyze vast datasets to provide actionable insights that keep you ahead of the competition.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Trend forecasting</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Customer churn prediction</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Revenue forecasting</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 3: Personalized Customer Journeys -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-person-hiking text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Personalized Customer Journeys</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Create unique, tailored experiences for every customer. Our AI maps individual customer journeys and automatically optimizes touchpoints to maximize engagement and conversion rates.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Dynamic journey mapping</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Real-time personalization</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Behavioral targeting</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 4: Automated Email Marketing -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-envelope text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Automated Email Marketing</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Deliver the right message at the perfect time. Our AI-driven email automation platform optimizes send times, subject lines, and content to achieve unprecedented open and click-through rates.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Smart send time optimization</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> A/B testing automation</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Workflow automation</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 5: Sentiment Analysis -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-face-smile text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Sentiment Analysis</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Understand customer emotions and brand perception in real-time. Our advanced NLP technology analyzes social media, reviews, and feedback to reveal actionable insights about customer satisfaction.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Real-time monitoring</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Emotion detection</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Crisis alerts</li>
+                    </ul>
+                </div>
+                
+                <!-- Feature 6: Advanced Reporting -->
+                <div class="feature-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="w-14 h-14 bg-blue-100 rounded-lg flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-pie text-blue-600 text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-gray-900 mb-3">Advanced Reporting</h3>
+                    <p class="text-gray-600 leading-relaxed mb-4">
+                        Make data-driven decisions with comprehensive, easy-to-understand reports. Our intelligent dashboard transforms complex data into visual insights that stakeholders can act on immediately.
+                    </p>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Custom dashboards</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Automated reporting</li>
+                        <li class="flex items-center"><i class="fas fa-check text-blue-600 mr-2"></i> Export capabilities</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 md:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Transformative Business Benefits
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    Experience measurable improvements across every aspect of your marketing operations.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Benefit 1 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600">
+                            <i class="fas fa-rocket text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Accelerated Campaign Execution</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Launch campaigns 10x faster with AI-powered automation. Reduce manual work from weeks to hours, allowing your team to focus on strategy instead of repetitive tasks. Our platform handles content creation, scheduling, and optimization automatically.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Benefit 2 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600">
+                            <i class="fas fa-chart-line text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Significantly Improved ROI</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Achieve 3x better return on investment through data-driven optimization. Our AI continuously tests and refines your campaigns, identifying what works and scaling it. Customers report average ROI improvements of 250-300% within the first year.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Benefit 3 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600">
+                            <i class="fas fa-users text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Enhanced Customer Engagement</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Connect with customers on a deeper level through personalized interactions. AI-driven personalization increases engagement rates by up to 40%, as customers receive content tailored to their specific interests, behaviors, and preferences.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Benefit 4 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600">
+                            <i class="fas fa-brain text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Intelligent Decision Making</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Replace guesswork with AI-powered insights. Our predictive analytics reveal which strategies will work best for your unique audience, eliminating expensive trial-and-error approaches and ensuring every marketing dollar is optimized.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Benefit 5 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600">
+                            <i class="fas fa-shield text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Reduced Operational Costs</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Lower your marketing expenses while increasing output. Automation reduces labor costs by 60%, eliminates costly mistakes, and optimizes ad spending. Most companies recoup their investment within 3-4 months.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Benefit 6 -->
+                <div class="flex gap-6">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-lg bg-blue-600">
+                            <i class="fas fa-star text-white text-xl"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-2xl font-bold text-gray-900 mb-3">Scalable Growth Without Limits</h3>
+                        <p class="text-gray-600 leading-relaxed">
+                            Scale your marketing efforts without scaling your team. Our AI platform grows with you, handling increased volume, complexity, and channels seamlessly. Maintain quality and personalization at any scale.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 md:py-32 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    Trusted by Industry Leaders
+                </h2>
+                <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+                    See how companies like yours are transforming their marketing with our AI platform.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        "This platform has been a game-changer for our marketing team. We've cut our content creation time by 80% while improving engagement rates by 45%. The predictive analytics feature alone has helped us identify high-value customer segments we were completely missing before."
+                    </p>
+                    <div class="border-t pt-4">
+                        <p class="font-bold text-gray-900">Sarah Mitchell</p>
+                        <p class="text-gray-600 text-sm">Director of Marketing, TechVenture Inc.</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 2 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        "The ROI has been incredible. In just six months, we've seen a 320% improvement in our marketing ROI. The personalized customer journey feature has transformed how we engage with prospects, and our email open rates have jumped from 18% to 31%."
+                    </p>
+                    <div class="border-t pt-4">
+                        <p class="font-bold text-gray-900">Marcus Rodriguez</p>
+                        <p class="text-gray-600 text-sm">VP of Growth, Digital Solutions Co.</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 3 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        "Outstanding platform. The sentiment analysis tool has given us real-time insights into customer perception that we never had before. We've been able to identify and address issues before they become problems. Our customer satisfaction scores have improved by 28 points."
+                    </p>
+                    <div class="border-t pt-4">
+                        <p class="font-bold text-gray-900">Jennifer Chen</p>
+                        <p class="text-gray-600 text-sm">Head of Customer Experience, Global Retail Group</p>
+                    </div>
+                </div>
+                
+                <!-- Testimonial 4 -->
+                <div class="testimonial-card bg-white p-8 rounded-xl shadow-md hover:shadow-xl transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 text-lg leading-relaxed mb-6">
+                        "We were skeptical at first, but the results speak for themselves. Our marketing team went from managing campaigns reactively to being proactive. The automated email marketing alone has saved us 15 hours per week while delivering better results. Highly recommended."
+                    </p>
+                    <div class="border-t pt-4">
+                        <p class="font-bold text-gray-900">David Thompson</p>
+                        <p class="text-gray-600 text-sm">Marketing Manager, Enterprise Solutions Ltd.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 md:py-32 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 tracking-tight">
+                    About AI Marketing Powerhouse
+                </h2>
+            </div>
+            
+            <div class="space-y-8">
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Founded in 2019 by a team of AI researchers and marketing veterans, AI Marketing Powerhouse was born from a simple observation: marketing teams were drowning in data but starving for insights. We recognized that artificial intelligence had the potential to revolutionize how companies approach marketing, but existing tools were either too complex for practitioners or too simplistic for enterprise needs. Our founding team spent two years developing proprietary machine learning algorithms and working with beta customers to build a platform that would truly transform marketing operations. Today, we serve over 5,000 companies across 40 countries, from ambitious startups to Fortune 500 enterprises.
+                </p>
+                
+                <p class="text-lg text-gray-700 leading-relaxed">
+                    Our mission is simple: democratize AI-powered marketing for companies of all sizes. We believe that every marketer, regardless of budget or technical expertise, deserves access to enterprise-grade AI tools. We're committed to continuous innovation, transparent pricing, and exceptional customer support. Our core values—integrity, innovation, and impact—guide every decision we make. We invest heavily in research and development, maintain rigorous data privacy and security standards, and foster a culture of collaboration with our customers. By combining cutting-edge AI technology with deep marketing expertise, we're helping businesses unlock their full potential and achieve growth they never thought possible.
+                </p>
+            </div>
+            
+            <div class="mt-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">5,000+</div>
+                    <p class="text-gray-600 font-semibold">Active Customers</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">40</div>
+                    <p class="text-gray-600 font-semibold">Countries Served</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-4xl font-bold text-blue-600 mb-2">$2.5B+</div>
+                    <p class="text-gray-600 font-semibold">Marketing ROI Generated</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section with Background Image -->
+    <section class="relative py-24 md:py-32 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop" alt="Team collaborating on marketing strategy" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black opacity-50"></div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="text-center text-white">
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 tracking-tight">
+                    Ready to Transform Your Marketing?
+                </h2>
+                <p class="text-lg md:text-xl text-gray-200 max-w-2xl mx-auto mb-8">
+                    Join thousands of companies that are already using AI to supercharge their marketing. Start your free 14-day trial today—no credit card required.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a href="https://example.com" class="btn-primary bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300 hover:shadow-2xl">
+                        Start Free Trial
+                    </a>
+                    <a href="mailto:test@example.com" class="btn-primary border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-3 rounded-lg font-bold text-lg transition-all duration-300">
+                        Schedule Demo
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
+                            <i class="fas fa-rocket text-white text-lg"></i>
+                        </div>
+                        <span class="text-xl font-bold text-white">AI Marketing</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Empowering marketers with AI-driven insights and automation to achieve unprecedented growth.
+                    </p>
+                </div>
+                
+                <!-- Product Links -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Product</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#features" class="text-gray-400 hover:text-white transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-white transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-white transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-white transition-colors duration-300">Pricing</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Company Links -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Company</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#about" class="text-gray-400 hover:text-white transition-colors duration-300">About Us</a></li>
+                        <li><a href="blog.html" class="text-gray-400 hover:text-white transition-colors duration-300">Blog</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-white transition-colors duration-300">Careers</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-white transition-colors duration-300">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Legal & Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Legal & Support</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="privacy.html" class="text-gray-400 hover:text-white transition-colors duration-300">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-400 hover:text-white transition-colors duration-300">Terms of Service</a></li>
+                        <li><a href="https://example.com" class="text-gray-400 hover:text-white transition-colors duration-300">Support</a></li>
+                        <li><a href="mailto:test@example.com" class="text-gray-400 hover:text-white transition-colors duration-300">Email Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <!-- Divider -->
+            <div class="border-t border-gray-800 pt-8">
+                <!-- Social Links -->
+                <div class="flex justify-center space-x-6 mb-6">
+                    <a href="https://twitter.com" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Twitter">
+                        <i class="fab fa-twitter text-xl"></i>
+                    </a>
+                    <a href="https://linkedin.com" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin text-xl"></i>
+                    </a>
+                    <a href="https://facebook.com" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Facebook">
+                        <i class="fab fa-facebook text-xl"></i>
+                    </a>
+                    <a href="https://instagram.com" class="text-gray-400 hover:text-white transition-colors duration-300" aria-label="Instagram">
+                        <i class="fab fa-instagram text-xl"></i>
+                    </a>
+                </div>
+                
+                <!-- Copyright -->
+                <div class="text-center text-gray-500 text-sm">
+                    <p>&copy; 2025 AI Marketing Powerhouse. All rights reserved. | Powered by Claude (Anthropic)</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
